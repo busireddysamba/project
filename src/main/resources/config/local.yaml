@@ -2,5 +2,5 @@ http:
   listner:
     host: "localhost"
     port: "9081"
-    path: "/routes"
+    path: "/travelontipcall/{servicetype}"
     
