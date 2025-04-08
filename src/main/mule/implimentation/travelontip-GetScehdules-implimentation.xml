@@ -3,5 +3,7 @@
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
-	<flow name="travelontip-GetScehdules-implimentationFlow" doc:id="16eaab46-905e-46c3-9ec4-2e7cc327af8e" />
+	<flow name="travelontip-GetScehdules-implimentationFlow" doc:id="16eaab46-905e-46c3-9ec4-2e7cc327af8e" >
+		<logger level="INFO" doc:name="Logger" doc:id="374b8171-14ce-4c31-a779-96daf074a348" message="===sub flow called for schedules==="/>
+	</flow>
 </mule>
