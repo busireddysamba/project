@@ -2,5 +2,14 @@ http:
   listner:
     host: "localhost"
     port: "9081"
-    path: "/travelontipcall/{servicetype}"
+    path: "/travelontipcall/{serviceType}"
+    
+db:
+  oracle:
+     host: "localhost"
+     port: "3306"
+     username: "root"
+     password: "Sivamma123"
+     databasename: "mydatabase"
+
     
